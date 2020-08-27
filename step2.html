@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/second.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1>Register Page</h1>
+
+        <ul>
+            <li>
+                <a href="index.html">
+                    <div class="circle">1</div>
+                    <span>Account</span>
+                </a>
+            </li>
+            <li class="current">
+                <a href="step2.html">
+                    <div class="circle">2</div>
+                    <span>Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="step3.html">
+                    <div class="circle">3</div>
+                    <span>Confirmation</span>
+                </a>
+            </li>
+        </ul>
+
+        <main>
+            <div class="left-col">
+
+                <h2>Details</h2>
+
+                <label for="loc">Location</label>
+                <select name="loc" id="loc">
+                    <option value="US">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="SG">Singapore</option>
+                </select>
+
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" checked>
+                <label for="male" class="right-label">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female" class="right-label">Female</label>
+
+                <label for="bio" class="mt-extra">Biography</label>
+                <textarea name="bio" id="bio" class="fix-height"></textarea>    
+
+                <a href="step3.html" class="cta">Next</a>
+
+            </div>
+
+            <div class="right-col">
+
+                <p><strong>Note: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quidem animi
+                    saepe provident itaque fugiat odit fuga temporibus perspiciatis at. Dolorem repudiandae delectus
+                    voluptatem esse.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia similique explicabo omnis delectus
+                    voluptatum tenetur illo aspernatur maiores, rerum neque.</p>
+
+            </div>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
